@@ -10,7 +10,7 @@ public class Solution {
         Person person4 = new Person("Lucy", 25, "Секретар");
         System.out.println();
         System.out.println("2. " + person4);
-        person4.profession = "Менеджер";
+        person4.changeProfessional("Менеджер");
         System.out.println("   (Після оновлення професії)\n   " + person4);
 
     }
